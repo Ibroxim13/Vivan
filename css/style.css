@@ -17,6 +17,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  max-width: 100%;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .tohome {
   width: 60px;
   height: 60px;
@@ -79,4 +86,236 @@ html {
   .phone__icon {
     font-size: 19px;
   }
+}
+
+.navbar {
+  height: 72px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.navbar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 750px) {
+  .navbar__content {
+    gap: 10px;
+  }
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 62px;
+}
+@media screen and (max-width: 908px) {
+  .navbar__left {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar__left {
+    width: 75%;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar__left {
+    width: 100%;
+  }
+}
+
+.navbar__left__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+@media screen and (max-width: 908px) {
+  .navbar__menu {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar__menu {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar__menu {
+    position: fixed;
+    top: 72px;
+    background-color: #fff;
+    left: -100%;
+    width: 40%;
+    box-shadow: 0 0 10px #0A6647;
+    height: calc(100vh - 472px);
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    border-radius: 0px 5px 20px 0;
+    gap: 30px;
+    transition: 0.3s;
+  }
+}
+
+#check {
+  display: none;
+}
+
+.toogle {
+  font-size: 30px;
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .toogle {
+    display: block;
+  }
+}
+@media screen and (max-width: 338px) {
+  .toogle {
+    font-size: 24px;
+  }
+}
+
+#check:checked ~ .navbar__menu {
+  left: 0;
+}
+
+.navbar__menu li {
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  width: 100px;
+}
+@media screen and (max-width: 750px) {
+  .navbar__menu li {
+    border-bottom: 2px solid #0A6647;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar__menu li {
+    width: 96px;
+  }
+}
+
+.navbar__menu li:hover {
+  color: #0A6647;
+  font-weight: 600;
+}
+
+.navbar__options:hover {
+  color: #0A6647;
+  font-weight: 600;
+}
+
+.navbar__options {
+  border: 0;
+  outline: 0;
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media screen and (max-width: 768px) {
+  .navbar__right {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar__right {
+    display: none;
+  }
+}
+
+.navbar__right__2 {
+  align-items: center;
+  gap: 24px;
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .navbar__right__2 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 338px) {
+  .navbar__right__2 {
+    gap: 10px;
+  }
+}
+
+.navbar__btn__login {
+  border: 0;
+  background: none;
+  color: #0A6647;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.navbar__btn__join {
+  border-radius: 4px;
+  border: 2px solid #0A6647;
+  background: #0A6647;
+  padding: 10px 17px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media screen and (max-width: 480px) {
+  .navbar__btn__join {
+    padding: 5px 10px;
+  }
+}
+
+.navbar__btn__join:hover {
+  opacity: 0.8;
+}
+
+.navbar__btn__join:active {
+  transform: scale(0.95);
 }/*# sourceMappingURL=style.css.map */
