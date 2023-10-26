@@ -9,6 +9,7 @@
         position: fixed;
         top: 0;
         width: 100%;
+        z-index: 999999999999999999999999999999999999999999999999999999;
     }
 }
 
@@ -76,6 +77,7 @@
         border-radius: 0px 5px 20px 0;
         gap: 30px;
         transition: 0.3s;
+        z-index: 999999999999999;
     }
 }
 

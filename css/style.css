@@ -100,6 +100,7 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000000000000000000000000000000000000000000000000000000;
   }
 }
 
@@ -174,6 +175,7 @@ html {
     border-radius: 0px 5px 20px 0;
     gap: 30px;
     transition: 0.3s;
+    z-index: 999999999999999;
   }
 }
 
@@ -325,14 +327,9 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 72px);
+  height: 100vh;
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 750px) {
-  .header {
-    height: 100vh;
-  }
 }
 
 .header__content {
@@ -430,4 +427,154 @@ html {
     right: 100px;
     bottom: -180px;
   }
+}
+
+.jobs {
+  background: #F8F3F1;
+  padding: 160px 0;
+  position: relative;
+}
+@media screen and (max-width: 560px) {
+  .jobs {
+    padding: 60px 0;
+  }
+}
+
+.jobs__content {
+  position: relative;
+}
+
+.vector__1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 660px) {
+  .vector__1 {
+    left: -150px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .vector__1 {
+    left: -180px;
+  }
+}
+
+.vector__2 {
+  position: absolute;
+  right: 0;
+  top: 17px;
+}
+@media screen and (max-width: 660px) {
+  .vector__2 {
+    top: 1000px;
+  }
+}
+
+.jobs__title {
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.88px;
+  margin-bottom: 29px;
+  z-index: 99999999999999;
+}
+@media screen and (max-width: 660px) {
+  .jobs__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 14px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .jobs__title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+.jobs__text {
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.08px;
+  margin-bottom: 44px;
+}
+@media screen and (max-width: 660px) {
+  .jobs__text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .jobs__text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+.jobs__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 66px;
+  z-index: 100000000000000000;
+}
+@media screen and (max-width: 1150px) {
+  .jobs__cards {
+    gap: 50px;
+  }
+}
+
+.jobs__card {
+  width: 334px;
+  z-index: 999;
+}
+@media screen and (max-width: 350px) {
+  .jobs__card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .jobs__card img {
+    width: 300px;
+  }
+}
+
+.jobs__card__title {
+  margin-top: 53px;
+  margin-bottom: 17px;
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+@media screen and (max-width: 400px) {
+  .jobs__card__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.jobs__cars__text {
+  color: #3C3B3D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.88px;
+  width: 260px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
