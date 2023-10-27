@@ -4,11 +4,11 @@
     position: relative;
 
     @media screen and (max-width:560px) {
-        padding: 60px 0 ;
+        padding: 60px 0;
     }
 }
 
-.jobs__content{
+.jobs__content {
     position: relative;
 }
 
@@ -22,7 +22,7 @@
     }
 
     @media screen and (max-width:350px) {
-       left: -180px;
+        left: -180px;
     }
 }
 
@@ -102,7 +102,7 @@
     }
 }
 
-.jobs__card img{
+.jobs__card img {
     @media screen and (max-width:350px) {
         width: 300px;
     }
@@ -135,4 +135,126 @@
     line-height: 22.88px;
     width: 260px;
     margin: 0 auto;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+
+    @media screen and (max-width:1000px) {
+        flex-direction: column;
+    }
+}
+
+.employee__left {
+    background-image: url(../img/hero-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 922px;
+    width: 50%;
+
+    @media screen and (max-width:1000px) {
+        width: 100%;
+        height: 822px;
+    }
+
+    @media screen and (max-width:500px) {
+        height: 500px;
+    }
+}
+
+.employee__right {
+    width: 50%;
+    height: 922px;
+    background: #124E3B;
+    padding: 120px;
+    position: relative;
+    padding-top: 200px;
+
+    @media screen and (max-width:1345px) {
+        padding: 100px 50px 50px;
+    }
+
+    @media screen and (max-width:1000px) {
+        width: 100%;
+        height: 700px;
+    }
+
+    @media screen and (max-width:500px) {
+        height: 500px;
+        padding-top: 50px;
+    }
+
+    @media screen and (max-width:400px) {
+        padding: 30px;
+    }
+}
+
+.vector__4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.employee__text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 38px 0 16px 0;
+    width: 550px;
+
+    @media screen and (max-width:1210px) {
+        width: 450px;
+    }
+
+    @media screen and (max-width:1000px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width:500px) {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    @media screen and (max-width:400px) {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 15px 0 5px;
+    }
+}
+
+.employee__name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 38px;
+
+    @media screen and (max-width:500px) {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    @media screen and (max-width:400px) {
+        font-size: 14px;
+    }
+}
+
+.employee__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 170px;
+    background: 0;
+    border-radius: 4px;
+    background: #F2CDCE;
+   border: 0;
 }
