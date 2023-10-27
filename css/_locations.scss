@@ -1,0 +1,135 @@
+.locations {
+    padding-bottom: 160px;
+    background: #F8F3F1;
+    text-align: center;
+    position: relative;
+    top: -160px;
+    padding-top: 160px;
+
+    @media screen and (max-width:510px) {
+        padding: 100px 0;
+    }
+}
+
+.locations__title {
+    color: #3C3B3D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.88px;
+    margin-bottom: 68px;
+
+    @media screen and (max-width:510px) {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 39px;
+    }
+}
+
+.locations__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 432px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-radius: 15984px;
+
+    @media screen and (max-width:510px) {
+        flex-direction: column;
+        width: 216px;
+    }
+}
+
+.location__btn__1 {
+    height: 53px;
+    border: 0;
+    outline: 0;
+    width: 216px;
+    border-radius: 15984px;
+    background: #124E3B;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.88px;
+}
+
+.location__btn__2 {
+    height: 50px;
+    border: 0;
+    outline: 0;
+    width: 216px;
+    border-radius: 15984px;
+    color: #0A0A0A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.88px;
+    background: #fff;
+}
+
+.locations__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    overflow: auto;
+    margin-bottom: 80px;
+}
+
+
+.locations__content::-webkit-scrollbar {
+    display: none;
+}
+
+.location__card {
+    width: 278px;
+    background-color: #fff;
+}
+
+.location__card__info {
+    margin: 29px 0 7px;
+    color: #757478;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.location__card__price {
+    color: #3C3B3D;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 34px;
+}
+
+.locations__more {
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background: #F2CDCE;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #0A0A0A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.88px;
+}
