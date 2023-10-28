@@ -1020,4 +1020,245 @@ html {
   width: 10px;
   height: 10px;
   background: #EDE19B;
+}
+
+.download {
+  background: #124E3B;
+}
+
+.download__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 850px) {
+  .download__content {
+    flex-direction: column;
+  }
+}
+
+.download__left {
+  padding: 180px 0 184px 100px;
+  width: 50%;
+  position: relative;
+  height: 800px;
+}
+@media screen and (max-width: 1280px) {
+  .download__left {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .download__left {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .download__left {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .download__left {
+    height: 550px;
+  }
+}
+
+.download__title {
+  margin-bottom: 38px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+@media screen and (max-width: 425px) {
+  .download__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+.download__text {
+  margin-bottom: 62px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 470px;
+}
+@media screen and (max-width: 1020px) {
+  .download__text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .download__text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+.download__from {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 380px) {
+  .download__from {
+    flex-direction: column;
+    align-items: start;
+    z-index: 1000000000000000000;
+  }
+}
+
+.download__from__box {
+  padding: 9px 13px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 380px) {
+  .download__from__box {
+    width: 140px;
+    z-index: 1000000000000000000;
+  }
+}
+
+.vector__download {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.download__right {
+  background-image: url(../img/hero-4.png);
+  width: 50%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1280px) {
+  .download__right {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .download__right {
+    width: 100%;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .download__right {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .download__right {
+    height: 400px;
+  }
+}
+
+.sponsors {
+  background: #fff;
+  text-align: center;
+}
+
+.sponsors__title {
+  color: #3C3B3D;
+  font-family: Roboto;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  padding: 98px 0 48px;
+}
+
+.sponsors__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 1280px) {
+  .sponsors__logo {
+    gap: 50px;
+  }
+}
+
+.sign__up {
+  position: relative;
+  text-align: center;
+  height: 404px;
+}
+@media screen and (max-width: 425px) {
+  .sign__up {
+    height: 300px;
+  }
+}
+
+.sign__up__title {
+  padding-top: 98px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.88px;
+}
+@media screen and (max-width: 700px) {
+  .sign__up__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sign__up__title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 70px;
+  }
+}
+
+.sign__up__btn {
+  margin: 60px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 4px;
+  background: #F2CDCE;
+  border: 0;
+}
+
+.sign__vector {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 520px) {
+  .sign__vector {
+    display: none;
+  }
+}
+
+.sign__vector__bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 520px) {
+  .sign__vector__bottom {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
