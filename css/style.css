@@ -36,6 +36,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px #124E3B;
+  z-index: 1000000000000000000;
 }
 @media screen and (max-width: 500px) {
   .tohome {
@@ -68,6 +69,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px #124E3B;
+  z-index: 1000000000000000000;
 }
 @media screen and (max-width: 500px) {
   .tocall {
